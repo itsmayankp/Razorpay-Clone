@@ -5,12 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RazorPay-Clone</title>
     <link rel="stylesheet" href="main.css">
-
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet" />
     <style>
         .coreFeaturesSection{
             background-size: 100% 100%;
             padding-top: 12rem;
             padding-bottom: 12rem;
+        }
+        .companiesList{
+            animation:3s infinite linear moveCompany;
+            will-change: transform;
+        }
+        @keyframes moveCompany {
+            0%{
+                top:0;
+            }
+            100%{
+                top:-50%;
+            }
+        }
+        .CTAsection{
+            background-size: 100% 100%;
         }
     </style>
 </head>
@@ -633,74 +652,443 @@
                 </div>
                 <!-- Card 2 -->
                 <div>
-                    <img src="assets/instant-activation-icon.svg">
+                    <img src="assets/easy-integration.svg">
                     <h3 class="font-mullish text-white font-bold text-lg my-4">
-                        Instant Activation
+                        Easy Integration
                     </h3>
                     <p class="font-mullish text-white opacity-80">
-                        Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.
+                        With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour.
                     </p>
                 </div>
                 <!-- Card 3 -->
                 <div>
-                    <img src="assets/instant-activation-icon.svg">
+                    <img src="assets/api-driven-icon.svg">
                     <h3 class="font-mullish text-white font-bold text-lg my-4">
-                        Instant Activation
+                        API Driven
                     </h3>
                     <p class="font-mullish text-white opacity-80">
-                        Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.
+                        Build your business for scale with our complete API-driven automation that requires zero manual intervention.
                     </p>
                 </div>
                 <!-- Card 4 -->
                 <div>
-                    <img src="assets/instant-activation-icon.svg">
+                    <img src="assets/payment-modes.svg">
                     <h3 class="font-mullish text-white font-bold text-lg my-4">
-                        Instant Activation
+                        100+ payment modes
                     </h3>
                     <p class="font-mullish text-white opacity-80">
-                        Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.
+                        Offer your customers the luxury of all payment modes including Credit/Debit cards, Netbanking, UPI, Wallets etc.
                     </p>
                 </div>
                 <!-- Card 5 -->
                 <div>
-                    <img src="assets/instant-activation-icon.svg">
+                    <img src="assets/simple-pricing.svg">
                     <h3 class="font-mullish text-white font-bold text-lg my-4">
-                        Instant Activation
+                        Simple Pricing
                     </h3>
                     <p class="font-mullish text-white opacity-80">
-                        Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.
+                        Our innovative payment solutions with competitive pricing make payments simpler.
                     </p>
                 </div>
                 <!-- Card 6 -->
                 <div>
-                    <img src="assets/instant-activation-icon.svg">
+                    <img src="assets/industry-support-icon.svg">
                     <h3 class="font-mullish text-white font-bold text-lg my-4">
-                        Instant Activation
+                        Best in Industry Support
                     </h3>
                     <p class="font-mullish text-white opacity-80">
-                        Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.
+                        Always available email, phone and chat based support to help you in your every step.
                     </p>
                 </div>
                 <!-- Card 7 -->
                 <div>
-                    <img src="assets/instant-activation-icon.svg">
+                    <img src="assets/dashboard-reporting-icon.svg">
                     <h3 class="font-mullish text-white font-bold text-lg my-4">
-                        Instant Activation
+                        Dashboard Reporting
                     </h3>
                     <p class="font-mullish text-white opacity-80">
-                        Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.
+                        Real-time data and insights on your Razorpay Dashboard to make informed business decisions.
                     </p>
                 </div>
                 <!-- Card 8 -->
                 <div>
-                    <img src="assets/instant-activation-icon.svg">
+                    <img src="assets/secure-icon.svg">
                     <h3 class="font-mullish text-white font-bold text-lg my-4">
-                        Instant Activation
+                        Secure
                     </h3>
                     <p class="font-mullish text-white opacity-80">
-                        Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.
+                        PCI DSS Level 1 compliant solution which removes your burden of regulatory compliance.
                     </p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Razorpay Section -->
+    <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
+        <div class="w-11/12 max-w-[1080px] relative mx-auto flex">
+            <!-- Left Part -->
+            <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+                <h2 class="font-mullish font-bold text-2xl text-deepBlueHead">
+                    Join the 50,00,000+ businesses using Razorpay
+                </h2>
+                <div class="w-6 h-1 bg-greenLight my-4 mb-10"></div>
+                <p class="font-mullish opacity-80">
+                    We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of
+                    us by joining thousands of our happy users and simplify the online payment experience for your customers.
+                </p>
+                <p class="font-mullish mt-6 opacity-80">
+                    Focus on your business while we handle the complexities of payments for you.
+                </p>
+            </div>
+            <!-- Right Part -->
+            <div class="h-[500px] w-[500px] relative overflow-hidden">
+                <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] top-0 z-50">
+                </div>
+
+                <img src="assets/comanies.png" class="absolute h-auto companiesList">
+
+                <div style="background: linear-gradient(0deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] bottom-0 z-50"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+
+    <section class="bg-white relative">
+        <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
+            <img src="assets/feature-section1-dottedrows.png"
+            class="absolute w-[200px] top-[8rem] left-[2rem] z-[10]">
+            <h2 class="font-mullish text-center font-bold text-2xl text-deepBlueHead">
+                An Experience <br>
+                People Love to Talk About
+            </h2>
+            <div class="w-6 h-1 bg-greenLight mx-auto my-4"></div>
+            <!-- Left Button -->
+            <button class="w-[100px] h-[100px] bg-lightGray rounded-full absolute left-0 top-1/2 flex justify-center items-center">
+                <div class="w-[65%] h-[65%] bg-lightGray rounded-full flex justify-center items-center mix-blend-multiply">
+                    <i class="fa-solid fa-angle-left
+                    text-gray-400 scale-[250%]"></i>
+                </div>
+            </button>
+
+            <!-- Right Button -->
+            <button class="w-[100px] h-[100px] bg-lightGray rounded-full absolute right-0 top-1/2 flex justify-center items-center">
+                <div class="w-[65%] h-[65%] bg-lightGray rounded-full flex justify-center items-center mix-blend-multiply">
+                    <i class="fa-solid fa-angle-right
+                        text-gray-400 scale-[250%]"></i>
+                </div>
+            </button>
+
+            <!-- Main Content -->
+
+            <div class="flex max-w-[960px] justify-evenly items-center mx-auto my-20">
+                <!-- Left Image -->
+                <img src="assets/testimonial.jpg"
+                width="320px" height="32p0x" class="rounded-xl" loading="lazy">
+
+                <!-- Right Part -->
+                <div class="max-w-[400px]">
+                    <img src="assets/quotes.svg" width="35px" height="40px"
+                    class="-mb2">
+                    <p class="font-mullish text-3xl font-extralight opacity-80">
+                        Readymade Closed Wallet Solution For Quick Refunds
+                    </p>
+                    <a href="#" class="text-grayText italic underline">Learn more</a>
+                    <h3 class="font-mullish font-extrabold text-2xl">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="font-mullish font-medium">
+                        CEO, XYZ Engineering Company
+                    </p>
+                    <img src="assets/fake-company-logo.png"
+                    height="40px"
+                    width="80px">
+                </div>
+            </div>
+
+            <!-- Six dots div -->
+            <div class="flex justify-center space-x-2">
+                <div class="h-[10px] w-[10px] bg-gray-500 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-lightBlue500 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-500 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-500 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-500 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-500 rounded-full"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+
+    <section class="bg-[url(assets/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative CTAsection min-h-[510px]">
+        <!-- Main Content -->
+        <div class="w-11/12 max-w-[1080px] relative flex items-center mx-auto pt-16 gap-16">
+            <!-- Left Part -->
+            <div class="flex flex-col gap-5 mt-12 max-w-[600px]">
+                <h2 class="font-mullish font-bold text-2xl text-white">
+                    Supercharge your business with Razorpay
+                </h2>
+                <div class="w-6 h-1 relative bg-greenLight"></div>
+                <p class="font-mullish text-white ">
+                    Sign up now to experience the future of payments and offer <br> your customers the best checkout experience.
+                </p>
+                <ul class="flex flex-wrap text-white gap-x-11 gap-y-3">
+                    <li class="font-mullish text-white flex items-center">
+                        <i class="fa-solid fa-check text-greenLight"></i>
+                        <span>
+                            Quick Onboarding
+                        </span>
+                    </li>
+                    <li class="font-mullish text-white flex items-center">
+                        <i class="fa-solid fa-check text-greenLight"></i>
+                        <span>
+                            Access to entire product suite
+                        </span>
+                    </li>
+                    <li class="font-mullish text-white flex items-center">
+                        <i class="fa-solid fa-check text-greenLight"></i>
+                        <span>
+                            API access
+                        </span>
+                    </li>
+                    <li class="font-mullish text-white flex items-center">
+                        <i class="fa-solid fa-check text-greenLight"></i>
+                        <span>
+                            24x7 support
+                        </span>
+                    </li>
+                </ul>
+                <button class="min-w-[32px] font-mullish text-sm font-bold bg-white text-lightBlue300 flex rounded-sm items-center hover:text-lightBlue500 transition-all duration-200 py-3 px-4 gap-4 place-self-start">
+                    Sign Up
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+            <img src="assets/ctaImg.svg" width="240px" height="282px" class="mt-20">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="bg-white">
+        <div class="w-11/12 max-w-[1080px] mx-auto flex 
+        gap-5 w-full">
+            <!-- Column 1 -->
+            <div>
+                <img src="">
+                <p>
+                    Razorpay is the only payments solution in India that allows businesses to accept, process and disburse
+                    payments with its
+                    product suite. It gives you access to all payment modes including credit card, debit card, netbanking,
+                    UPI and popular
+                    wallets including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.
+                </p>
+    
+                <p>
+                    RazorpayX supercharges your business banking experience, bringing effectiveness, efficiency, and
+                    excellence to all
+                    financial processes. With RazorpayX, businesses can get access to fully-functional current accounts,
+                    supercharge their
+                    payouts and automate payroll compliance.
+                </p>
+    
+                <p>
+                    Manage your marketplace, automate bank transfers, collect recurring payments, share invoices with
+                    customers and avail
+                    working capital loans - all from a single platform. Fast forward your business with Razorpay.
+                </p>
+                <!-- Disclaimer section -->
+                <p>
+                    Disclaimer: The RazorpayX powered Current Account and VISA corporate credit card are provided by RBI
+                    licensed banks.
+                    Your RazorpayX powered account is provided by our partner bank, in accordance with RBI regulations.
+                    RazorpayX itself is
+                    not a bank and doesn't hold or claim to hold a banking license.
+                </p>
+    
+                <h2>
+                    SUBSCRIBE TO OUR NEWSLETTER
+                </h2>
+    
+                <form action="#">
+                    <input type="text" placeholder="Your email address">
+                </form>
+    
+                <div>
+                    <img src="assets/footer-certificate-1.png">
+                    <img src="assets/footer-certificate-2.jpg">
+                </div>
+            </div>
+    
+            <!-- Column 2 -->
+            <div>
+                <!-- Heading 1 -->
+                <h3>
+                    BANING PLUS
+                </h3>
+                <a href="#">RazorpayX</a>
+                <a href="#">RazorpayX</a>
+                <a href="#">RazorpayX</a>
+                <a href="#">RazorpayX</a>
+                <a href="#">RazorpayX</a>
+                <a href="#">
+                    View Live demo
+                    <span>
+                        New
+                    </span>
+                </a>
+                <!-- Heading 2 -->
+                <h3>
+                    LENDING
+                </h3>
+                <a href="#">Razorpay Capital</a>
+                <a href="#">Instant Settlements</a>
+                <a href="#">Working Capital Loans</a>
+                <a href="#">Marketplace Instant Settlements</a>
+                <!-- Heading 3 -->
+                <h3>
+                    RISK & FRAUD
+                </h3>
+                <a href="#">Thirdwatch</a>
+                <a href="#">
+                    PrePay CoD
+                    <span>
+                        New
+                    </span>
+                </a>
+                <!-- Heading 4 -->
+                <h3>
+                    BECOME A PARTNER
+                </h3>
+                <a href="#">Refer and Earn</a>
+                <a href="#">Onboarding APIs</a>
+                <!-- Heading 5 -->
+                <h3>
+                    MORE
+                </h3>
+                <a href="#">Route</a>
+                <a href="#">Invoices</a>
+                <a href="#">Freelancer Payments</a>
+                <a href="#">International</a>
+                <a href="#">Flash Checker</a>
+                <a href="#">UPI</a>
+                <a href="#">ePOS</a>
+                <a href="#">Checkout Demo</a>
+                <a href="#">RazorpayX Payroll</a>
+            </div>
+    
+            <!-- Column 3 -->
+            <div>
+                <!-- Heading 1 -->
+                <h3>
+                    ACCEPT PAYMENTS
+                </h3>
+                <a href="#">Payment Gateway</a>
+                <a href="#">Payment Pages</a>
+                <a href="#">Payment Links</a>
+                <a href="#">QR Codes</a>
+                <a href="#">Subscriptions</a>
+                <a href="#">Smart Collect</a>
+                <!-- Heading 2 -->
+                <h3>
+                    Developers
+                </h3>
+                <a href="#">Docs</a>
+                <a href="#">Integrations</a>
+                <a href="#">API Reference</a>
+                <!-- Heading 3 -->
+                <h3>
+                    RESOURCES
+                </h3>
+                <a href="#">Blog</a>
+                <a href="#">Customer Stories</a>
+                <a href="#">Events</a>
+                <a href="#">Chargeback Guide</a>
+                <a href="#">Settlement Guide</a>
+                <!-- Heading 4 -->
+                <h3>
+                    SOLUTIONS
+                </h3>
+                <a href="#">Education</a>
+                <a href="#">E-commerce</a>
+                <a href="#">Saas</a>
+                <a href="#">BFSI</a>
+                <!-- Heading 5 -->
+                <h3>
+                    FREE TOOLS
+                </h3>
+                <a href="#">GST Calculator</a>
+                <a href="#">Online TDS Payment</a>
+                <a href="#">
+                    GST Number Search
+                    <span>
+                        New
+                    </span>
+                </a>
+            </div>
+    
+            <!-- Column 4 -->
+            <div>
+                <!-- Heading 1 -->
+                <h3>
+                    COMPANY
+                </h3>
+                <a href="#">About Us</a>
+                <a href="#">
+                    Careers
+                    <span>
+                        We're hiring!
+                    </span>
+                </a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Grievance Redressal</a>
+                <a href="#">Responsible Disclosure</a>
+                <a href="#">Partners</a>
+                <a href="#">White Papers</a>
+                <a href="#">Corporate Information</a>
+                <!-- Heading 2 -->
+                <h3>
+                    HELP & SUPPORT
+                </h3>
+                <a href="#">Support</a>
+                <a href="#">Knowledge base</a>
+                <!-- Heading 3 -->
+                <h3>
+                    FIND US ONLINE
+                </h3>
+                <div>
+                    <a href="#">
+                        <img src="assets/facebook-icon.svg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/twitter-icon.svg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/instagram-icon.svg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/github-icon.svg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/linkedin-icon.svg">
+                    </a>
+                </div>
+                <!-- Heading 4 -->
+                <h3>
+                    REGD. OFFICE ADDRESS
+                </h3>
+                <p>
+                    Razorpay Software Private Limited,
+                    1st Floor, SJR Cyber,
+                    22 Laskar Hosur Road, Adugodi,
+                    Bengaluru, 560030,
+                    Karnataka, India
+                    CIN: U72200KA2013PTC097389
+                </p>
+                <p>
+                    © Razorpay 2022
+                    All Rights Reserved
+                </p>
             </div>
         </div>
     </section>
